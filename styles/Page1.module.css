@@ -1,0 +1,96 @@
+.containerquest {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centralizar verticalmente e horizontalmente */
+  height: 100vh; /* Usar a altura da viewport */
+  width: 100%; /* Usar a largura total da viewport */
+ 
+}
+
+.containerinputquest {
+  display: flex;
+  flex-direction: column; /* Organize os itens em uma coluna */
+  align-items: center; /* Centralize os itens horizontalmente */
+  margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+.inputquest {
+  padding: 15px 30px;
+  margin-top: 15px;
+  width: 284px;
+  border: 0;
+  background-color: white;
+  border-radius: 15px;
+  color: var(--cor-texto-escuro);
+  border-bottom: 2px solid;
+}
+
+.page1Button {
+  padding: 15px 30px;
+  border: 0;
+  background-color: rgb(47, 46, 46);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 236px;
+  height: 43px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  transition: background-color 0.3s;
+}
+
+
+.page1Button:hover {
+  background-color: #D9D9D9;
+  color: #333; /* Define a cor de fundo quando o mouse está sobre o botão */
+  border: 2px solid #333;;
+}
+
+.background{
+  background-color:  #272728;
+
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+}
+
+.background2{
+  background-color: #D9D9D9;
+
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+  border-radius: 40px;
+}
+
+.container {
+  
+  position: fixed; /* Defina a posição relativa no contêiner pai */
+  width: 500px; /* Defina uma largura para o contêiner (apenas para exemplo) */
+  height: 100px; /* Defina uma altura para o contêiner (apenas para exemplo) */
+  border: 1px;
+  top:20px;
+  left:20px;
+       /* Adicione uma borda para melhor visualização */
+}
+    
